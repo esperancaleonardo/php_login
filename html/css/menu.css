@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://www.teahub.io/photos/full/30-306962_fond-d-cran-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.titulo {
+  font-size: x-large;
+  color: white;
+}
+
+.container {
+  height: 100%;
+   align-content: center;
+}
+
+.card {
+
+  padding: 10% 5%;
+
+  height: 100%;
+  border-radius: 30pt;
+  margin-top: auto;
+  margin-bottom: 10pt;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.card-body {
+  text-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.card-body  .sigla {
+  color: red;
+}
+
+
+h1 {
+  color: white;
+}
+
+.card-cadastro {
+  padding: 5% 5%;
+
+  height: 100%;
+  border-radius: 30pt;
+  margin-top: auto;
+  margin-bottom: 10pt;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  
+  color: rgb(255, 255, 255);
+}
+
+.input-group-addon {
+  background-color: #267cf5;
+  color: black;
+  border: none;
+}
+
+
+
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+
+}

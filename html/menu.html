@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>SISGAC - SISTEMA DE GESTÃO DE ALUNOS E CURSOS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../html/css/menu.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../html/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../html/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../html/img/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand titulo" href="menu.php">SISTEMA DE GESTÃO DE ALUNOS E CURSOS (SISGAC)</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="menu.php">Página Inicial</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestão Administrativa<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="formAluno.php">Cadastrar Alunos</a></li>
+              <li><a href="formProfessor.php">Cadastrar Professores</a></li>
+              <li><a href="formCurso.php">Cadastrar Cursos</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Relatórios<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="listaAlunos.php">Alunos</a></li>
+              <li><a href="listaProf.php">Professores</a></li>
+              <li><a href="listaCursos.php">Cursos</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestão do Sistema<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="formUsuario.php">Novo Usuário</a></li>
+              <li><a href="formAlteraSenha.php">Alterar Senha</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="deslogar.php"><span class="glyphicon glyphicon-log-in"></span> Sair </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <!-- #nao tire esse comentario -->
+  </div>
+</body>
+</html>

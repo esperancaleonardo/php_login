@@ -1,0 +1,69 @@
+<h1> Cadastro de Alunos na base do sistema SISGAC.</h1>
+
+<div class="card-cadastro">
+
+  <h3>Digite os dados do novo aluno abaixo: </h3><br>
+  <form action="../src/cadAluno.php" method="POST" autocomplete="off">
+  
+   <div class="form-inline">
+        <div class="input-group col-md-9">
+            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input id="nome" name="nome" type="text" class="form-control" placeholder="Nome do Aluno">  
+        </div>    
+        
+        <div class="input-group col-md-2">
+            <span class="input-group-addon"><i class="fa fa-fingerprint"></i></span>
+            <input id="ra" name="ra" type="text" class="form-control" placeholder="RA do Aluno">  
+        </div><br><br>
+        
+        <div class="input-group col-md-8">
+            <span class="input-group-addon"><i class="fa fa-location-arrow"></i></span>
+            <input id="ende" name="end" type="text" class="form-control" placeholder="Endereço do Aluno">  
+        </div>
+
+        <div class="input-group col-md-3">
+            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+            <input id="dataNasc" name="dataNasc" type="date" class="form-control" placeholder="Data de Nascimento">  
+        </div><br><br>
+
+        
+        <div class="input-group col-md-3">
+            <span class="input-group-addon"><i class="fa fa-venus-mars"></i></span>
+            <select name="gereno" id="gereno" class="form-control">
+                <option value="">Selecione uma opção</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select>
+        </div>    
+        
+        <div class="input-group col-md-8">
+            <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+            <input id="formacao" name="formacao" type="text" class="form-control" placeholder="Formação Acadêmica">  
+        </div><br><br>
+        
+        <div class="input-group col-md-8">
+            <span class="input-group-addon"><i class="fa fa-map-marked-alt"></i></span>
+            <input id="cidade" name="cidade" type="text" class="form-control" placeholder="Cidade">  
+        </div>
+
+        <div class="input-group col-md-3">
+            <span class="input-group-addon"><i class="fa fa-map-pin"></i></span>
+            <select name="estado" id="estado" class="form-control"><!--- ESTADOS ---></select>
+        </div><br><br>    
+        
+        <div class="input-group col-md-11">
+            <span class="input-group-addon"><i class="fa fa-list-alt"></i></span>
+            <select name="curso" id="curso" class="form-control"><!----- CURSOS -----></select>
+            
+        </div><br><br>
+   </div><br>
+    
+      <!-- Button (Double) -->
+     <div class="form-group col-xs-4">
+        <button id="botaoSalvar" name="botaoSalvar" class="btn btn-success">Adcionar novo Aluno</button>
+        <button id="botaoCancelar" name="botaoCancelar" class="btn btn-danger" value="Cancel">Cancelar</button>
+      </div>
+      <div class="mensagem col-xs-8"><!--mensagem--></div>
+  </form>
+</div>
+

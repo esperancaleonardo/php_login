@@ -1,0 +1,75 @@
+<h1> Cadastro de Professores na base do sistema SISGAC.</h1>
+
+<div class="card-cadastro">
+
+  <h3>Digite os dados do novo professor abaixo: </h3><br>
+  <form action="../src/cadProfessor.php" method="POST" autocomplete="off">
+  
+   <div class="form-inline">
+        <div class="input-group col-md-4">
+            <span class="input-group-addon"><i class="fa fa-id-card-alt"></i></span>
+            <input id="ra" name="ra" type="text" class="form-control" placeholder="RA do Professor">  
+        </div>    
+        
+        <div class="input-group col-md-4">
+            <span class="input-group-addon"><i class="fa fa-id-card"></i></span>
+            <input id="cpf" name="cpf" type="text" class="form-control" placeholder="CPF do Professor">  
+        </div>
+        
+        <div class="input-group col-md-3">
+            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+            <input id="dataNasc" name="dataNasc" type="date" class="form-control" placeholder="Data de Nascimento">  
+        </div><br><br>
+        
+        <div class="input-group col-md-3">
+            <span class="input-group-addon"><i class="fa fa-chalkboard-teacher"></i></span>
+            <select name="titulo" id="titulo" class="form-control">
+                <option value="">Selecione uma opção</option>
+                <option value="nenhum">Nenhum</option>
+                <option value="mestre">Mestre</option>
+                <option value="doutor">Doutor</option>
+                <option value="titular">Professor Titular</option>
+                <option value="honoris">Honoris Causa</option>
+            </select>
+        </div>    
+        
+        <div class="input-group col-md-8">
+            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+            <input id="nome" name="nome" type="text" class="form-control" placeholder="Nome Completo">  
+        </div><br><br>
+
+        <div class="input-group col-md-9">
+            <span class="input-group-addon"><i class="fa fa-at"></i></span>
+            <input id="email" name="email" type="text" class="form-control" placeholder="Email Institucional">  
+        </div>    
+        
+        <div class="input-group col-md-2">
+            <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+            <input id="ramal" name="ramal" type="text" class="form-control" placeholder="Ramal">  
+        </div><br><br>
+
+        <div class="input-group col-md-3">
+            <span class="input-group-addon"><i class="fa fa-building"></i></span>
+            <input id="setor" name="setor" type="text" class="form-control" placeholder="Setor">  
+        </div>    
+        
+        <div class="input-group col-md-5">
+            <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+            <input id="locacao" name="locacao" type="text" class="form-control" placeholder="Locação">
+        </div>
+        
+        <div class="input-group col-md-3">
+            <span class="input-group-addon"><i class="fa fa-graduation-cap"></i></span>
+            <input id="curso" name="curso" type="text" class="form-control" placeholder="Curso">
+        </div><br><br>
+   </div><br>
+    
+      <!-- Button (Double) -->
+     <div class="form-group col-xs-4">
+        <button id="botaoSalvar" name="botaoSalvar" class="btn btn-success">Adcionar novo professor</button>
+        <button id="botaoCancelar" name="botaoCancelar" class="btn btn-danger" value="Cancel">Cancelar</button>
+      </div>
+      <div class="mensagem col-xs-8"><!--mensagem--></div>
+  </form>
+</div>
+

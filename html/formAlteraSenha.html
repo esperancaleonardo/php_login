@@ -1,0 +1,31 @@
+<h1>  Alterar Senha de usuário logado no SISGAC </h1>
+
+<div class="card-cadastro">
+
+  <h3>Confira seus dados e digite a nova senha desejada:</h3><br>
+  <form action="../src/alteraSenha.php" method="POST" autocomplete="off">
+  
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+      <!----VALOR_CPF_JSON---->
+    </div><br>
+
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-key"></i></span>
+      <input id="senha" name="senha" type="password" class="form-control" placeholder="Senha de acesso">
+    </div><br>
+
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+      <!----VALOR_EMAIL_JSON---->
+    </div><br>
+
+     <!-- Button (Double) -->
+     <div class="form-group col-xs-5">
+        <button id="botaoSalvar" name="botaoSalvar" class="btn btn-success">Alterar Senha</button>
+        <button id="botaoCancelar" name="botaoCancelar" class="btn btn-danger" value="Cancel">Cancelar</button>
+      </div>
+      <div class="mensagem col-xs-7"><!--mensagem--></div>
+  </form>
+</div>
+

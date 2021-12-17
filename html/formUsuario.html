@@ -1,0 +1,31 @@
+<h1> Cadastro interno de usuários no sistema do SISGAC.</h1>
+
+<div class="card-cadastro">
+
+  <h3>Digite os dados do novo usuário abaixo: </h3><br>
+  <form action="../src/cadUsuario.php" method="POST" autocomplete="off">
+  
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+      <input id="cpf" name="cpf" type="text" class="form-control" placeholder="CPF para login">
+    </div><br>
+
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-key"></i></span>
+      <input id="senha" name="senha" type="password" class="form-control" placeholder="Senha de acesso">
+    </div><br>
+
+    <div class="input-group">
+      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+      <input id="email" name="email" type="email" class="form-control" placeholder="Email para contato">
+    </div><br>
+
+     <!-- Button (Double) -->
+     <div class="form-group col-xs-4">
+        <button id="botaoSalvar" name="botaoSalvar" class="btn btn-success">Adcionar novo usuário</button>
+        <button id="botaoCancelar" name="botaoCancelar" class="btn btn-danger" value="Cancel">Cancelar</button>
+      </div>
+      <div class="mensagem col-xs-8"><!--mensagem--></div>
+  </form>
+</div>
+

@@ -13,7 +13,7 @@ C:<caminho_instalacao_xampp>\xampp\htdocs\teste\src
 
 ## Resumo
 
-![Tela Inicial](https://imgur.com/D5gbGrD)
+<img src="https://github.com/esperancaleonardo/php_login/blob/main/media/Captura%20de%20tela%202021-12-16%20232845.png" width="800">
 
 Sistema básico modelo inicial com gestão de dados em arquivos Json utilizando PHP. Composto por uma tela inicial e uma tela com menu superior com diferentes contextos: Cadastros e Relatórios/Listagens.
 
